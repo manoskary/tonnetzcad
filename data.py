@@ -108,3 +108,14 @@ def get_dataset(args, path=None, verbose=True, download=True, regenerate=False, 
         dataset = make_dataset(args, **kwargs)
         to_pickle(dataset, path)
     return dataset
+
+
+if __name__ == "__main__":
+    import dgl
+    import torch
+
+    g = dgl.heterograph(
+    {('user', '+1', 'movie') : [(0, 0), (0, 1), (1, 0)],
+     ('user', '-1', 'movie') : [(2, 1)]})
+
+    print(g.edges(('user', '+1', 'movie')))
