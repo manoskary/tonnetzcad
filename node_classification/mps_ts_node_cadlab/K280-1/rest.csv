@@ -1,6 +1,3 @@
-,rid,onset,duration,label
-0,0,77.0,1.0,0.0
-1,1,167.0,1.0,0.0
-2,2,197.0,1.0,0.0
-3,3,323.0,1.0,0.0
-4,4,431.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3623abb9de36d65044b9f403d75c7d90bb08634889168392ccccc1adcc68d10
+size 115
